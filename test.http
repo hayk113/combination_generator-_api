@@ -1,0 +1,28 @@
+@api = http://localhost:3000/api
+
+### Test 1
+POST {{api}}/generate
+Content-Type: application/json
+
+{
+    "items": [1, 2, 1],
+    "length": 2
+}
+
+### Test 2: Different combination test
+POST {{api}}/generate
+Content-Type: application/json
+
+{
+  "items": [1, 2, 3, 4, 5],
+  "length": 3
+}
+
+### Test 3: Different combination test
+POST {{api}}/generate
+Content-Type: application/json
+
+{
+  "items": [1, 2, 1, 4, 3],
+  "length": 3
+}
