@@ -17,5 +17,5 @@ A Node.js API for generating combinations with specific constraints and storing 
 ## Setup
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Configure database connection in `src/config/database.js`
+3. Configure database connection in `config/database.js`
 4. Start the server: `npm start`
